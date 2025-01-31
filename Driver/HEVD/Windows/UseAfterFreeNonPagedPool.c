@@ -89,7 +89,7 @@ AllocateUaFObjectNonPagedPool(
     VOID
 )
 {
-    NTSTATUS Status = STATUS_UNSUCCESSFUL;
+    NTSTATUS Status = STATUS_SUCCESS;
     PUSE_AFTER_FREE_NON_PAGED_POOL UseAfterFree = NULL;
 
     PAGED_CODE();
